@@ -15,7 +15,7 @@ spring:
     password: root
   datasource:
     name: dev
-    url: jdbc:mysql://10.177.80.63:3306/snailmall
+    url: jdbc:mysql://10.177.80.63:3306/snailmall?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: 123456
 redis:
